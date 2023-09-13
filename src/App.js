@@ -48,7 +48,7 @@ function App() {
   return (
     <div className="App">
       <ToastContainer/>
-      <Router>
+      <Router basename='/'>
         
         <Routes>
           <Route exact path='/' element={<Dashboard />} />
