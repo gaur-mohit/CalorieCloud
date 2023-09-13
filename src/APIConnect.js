@@ -1,6 +1,6 @@
 var api;
 function change(i){
-    api='http://localhost:8080/'
+    api='https://caloriecloud-backend-production.up.railway.app/'
     localStorage.setItem('api',api)
 }
 api=localStorage.getItem('api')
