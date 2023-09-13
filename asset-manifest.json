@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CalorieCloud/static/css/main.6a17f477.css",
-    "main.js": "/CalorieCloud/static/js/main.6a3bdd22.js",
+    "main.js": "/CalorieCloud/static/js/main.df10e3be.js",
     "static/js/787.cda612ba.chunk.js": "/CalorieCloud/static/js/787.cda612ba.chunk.js",
     "static/media/image1.jpg": "/CalorieCloud/static/media/image1.26a518d28addf90ab1d4.jpg",
     "static/media/almonds.jpg": "/CalorieCloud/static/media/almonds.2e88fe03607b3aa4a028.jpg",
@@ -85,11 +85,11 @@
     "static/media/mixedNutsBanana.jpg": "/CalorieCloud/static/media/mixedNutsBanana.13ba389a13f8e7c4fbc1.jpg",
     "index.html": "/CalorieCloud/index.html",
     "main.6a17f477.css.map": "/CalorieCloud/static/css/main.6a17f477.css.map",
-    "main.6a3bdd22.js.map": "/CalorieCloud/static/js/main.6a3bdd22.js.map",
+    "main.df10e3be.js.map": "/CalorieCloud/static/js/main.df10e3be.js.map",
     "787.cda612ba.chunk.js.map": "/CalorieCloud/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6a17f477.css",
-    "static/js/main.6a3bdd22.js"
+    "static/js/main.df10e3be.js"
   ]
 }
