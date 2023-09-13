@@ -48,49 +48,49 @@ function App() {
   return (
     <div className="App">
       <ToastContainer/>
-      <Router basename='/'>
+      <Router basename='/react-demo'>
         
         <Routes>
-          <Route exact path='/' element={<Dashboard />} />
-          <Route exact path='/Login' element={<Login />} />
-          <Route exact path='/Register' element={<Register />} />
-          <Route exact path='/Dashboard' element={<Dashboard />} />
-          <Route exact path='/UpdateProfile' element={<UpdateProfile/>}/>
-          <Route exact path='/WorkoutForm' element={<WorkoutForm/>}/>
-          <Route exact path='/workout-history' element={<History />} />
-          <Route exact path='/exercise-tracking' element={<Tracking />} />
-          <Route exact path='/goal-setting' element={<Setting />} />
-          <Route exact path='/workout-plan-creator' element={<Creator />} />
-          <Route exact path='/user-dashboard' element={<UserDashboard />} />
-          <Route exact path='/WorkoutBase' element={<WorkoutBase />} />
-          <Route exact path='/workout-track' element={<WorkoutTrack />} />
-          <Route exact path='/weight-tracker' element={<WeightTracker />} />
-          <Route exact path='/view-goals' element={<ViewGoals />} />
-          <Route exact path='/update-goal/:id' element={<Setting />} />
+          <Route exact path='/react-demo' element={<Dashboard />} />
+          <Route  path='/Login' element={<Login />} />
+          <Route  path='/Register' element={<Register />} />
+          <Route  path='/Dashboard' element={<Dashboard />} />
+          <Route  path='/UpdateProfile' element={<UpdateProfile/>}/>
+          <Route  path='/WorkoutForm' element={<WorkoutForm/>}/>
+          <Route  path='/workout-history' element={<History />} />
+          <Route  path='/exercise-tracking' element={<Tracking />} />
+          <Route  path='/goal-setting' element={<Setting />} />
+          <Route  path='/workout-plan-creator' element={<Creator />} />
+          <Route  path='/user-dashboard' element={<UserDashboard />} />
+          <Route  path='/WorkoutBase' element={<WorkoutBase />} />
+          <Route  path='/workout-track' element={<WorkoutTrack />} />
+          <Route  path='/weight-tracker' element={<WeightTracker />} />
+          <Route  path='/view-goals' element={<ViewGoals />} />
+          <Route  path='/update-goal/:id' element={<Setting />} />
 
-          <Route exact path='/nutritionHome' element={<NutritionHome />} />
-          <Route exact path='/nutritionWeightLoss' element={<NutritionWeightLoss />} />
-          <Route exact path='/nutritionWeightLossPlanMonday' element={<NutritionWeightLossPlanMonday />} />
-          <Route exact path='/nutritionWeightLossPlanTuesday' element={<NutritionWeightLossPlanTuesday />} />
-          <Route exact path='/nutritionWeightLossPlanWednesday' element={<NutritionWeightLossPlanWednesday />} />
-          <Route exact path='/nutritionWeightLossPlanThursday' element={<NutritionWeightLossPlanThursday />} />
-          <Route exact path='/nutritionWeightLossPlanFriday' element={<NutritionWeightLossPlanFriday />} />
-          <Route exact path='/nutritionWeightLossPlanSaturday' element={<NutritionWeightLossPlanSaturday />} />
-          <Route exact path='/nutritionWeightLossPlanSunday' element={<NutritionWeightLossPlanSunday />} />
-          <Route exact path='/nutritionWeightLossProgress' element={<NutritionWeightLossProgress />} />
+          <Route  path='/nutritionHome' element={<NutritionHome />} />
+          <Route  path='/nutritionWeightLoss' element={<NutritionWeightLoss />} />
+          <Route  path='/nutritionWeightLossPlanMonday' element={<NutritionWeightLossPlanMonday />} />
+          <Route  path='/nutritionWeightLossPlanTuesday' element={<NutritionWeightLossPlanTuesday />} />
+          <Route  path='/nutritionWeightLossPlanWednesday' element={<NutritionWeightLossPlanWednesday />} />
+          <Route  path='/nutritionWeightLossPlanThursday' element={<NutritionWeightLossPlanThursday />} />
+          <Route  path='/nutritionWeightLossPlanFriday' element={<NutritionWeightLossPlanFriday />} />
+          <Route  path='/nutritionWeightLossPlanSaturday' element={<NutritionWeightLossPlanSaturday />} />
+          <Route  path='/nutritionWeightLossPlanSunday' element={<NutritionWeightLossPlanSunday />} />
+          <Route  path='/nutritionWeightLossProgress' element={<NutritionWeightLossProgress />} />
 
-          <Route exact path='/nutritionWeightGain' element={<NutritionWeightGain />} />
-          <Route exact path='/nutritionWeightGainPlanMonday' element={<NutritionWeightGainPlanMonday />} />
-          <Route exact path='/nutritionWeightGainPlanTuesday' element={<NutritionWeightGainPlanTuesday />} />
-          <Route exact path='/nutritionWeightGainPlanWednesday' element={<NutritionWeightGainPlanWednesday />} />
-          <Route exact path='/nutritionWeightGainPlanThursday' element={<NutritionWeightGainPlanThursday />} />
-          <Route exact path='/nutritionWeightGainPlanFriday' element={<NutritionWeightGainPlanFriday />} />
-          <Route exact path='/nutritionWeightGainPlanSaturday' element={<NutritionWeightGainPlanSaturday />} />
-          <Route exact path='/nutritionWeightGainPlanSunday' element={<NutritionWeightGainPlanSunday />} />
-          <Route exact path='/nutritionWeightGainProgress' element={<NutritionWeightGainProgress />} />
-          <Route exact path='/admin-dashboard' element={<AdminDashboard />} />
-          <Route exact path='/admin-updateprofile' element={<AdminUpdateProfile />} />
-          <Route exact path='/display-AllUser' element={<DisplayAllUsers />} />
+          <Route  path='/nutritionWeightGain' element={<NutritionWeightGain />} />
+          <Route  path='/nutritionWeightGainPlanMonday' element={<NutritionWeightGainPlanMonday />} />
+          <Route  path='/nutritionWeightGainPlanTuesday' element={<NutritionWeightGainPlanTuesday />} />
+          <Route  path='/nutritionWeightGainPlanWednesday' element={<NutritionWeightGainPlanWednesday />} />
+          <Route  path='/nutritionWeightGainPlanThursday' element={<NutritionWeightGainPlanThursday />} />
+          <Route  path='/nutritionWeightGainPlanFriday' element={<NutritionWeightGainPlanFriday />} />
+          <Route  path='/nutritionWeightGainPlanSaturday' element={<NutritionWeightGainPlanSaturday />} />
+          <Route  path='/nutritionWeightGainPlanSunday' element={<NutritionWeightGainPlanSunday />} />
+          <Route  path='/nutritionWeightGainProgress' element={<NutritionWeightGainProgress />} />
+          <Route  path='/admin-dashboard' element={<AdminDashboard />} />
+          <Route  path='/admin-updateprofile' element={<AdminUpdateProfile />} />
+          <Route  path='/display-AllUser' element={<DisplayAllUsers />} />
         </Routes>
       </Router>
     </div>
