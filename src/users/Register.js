@@ -55,14 +55,16 @@ const Register = () => {
     if (validated) {
       document.getElementById("error").hidden = true;
       console.log(user)
-      axios.post(`${api}user/register`, user).then((res)=>{
-        toast.success("Registration Successful")
+      toast.success("Registration Successful")
+      alert("Please use temp account \n For User \n Email : user@gmail.com \n Password: Password@123 \n For Admin \n Email : admin@gmail.com \n Password : Password@123 ")
       navigate("/Login");
-      })
-      .catch((err)=>{
-        console.log(err)
-        toast.error("Registration Failed")
-      })
+      // axios.post(`${api}user/register`, user).then((res)=>{
+        
+      // })
+      // .catch((err)=>{
+      //   console.log(err)
+      //   toast.error("Registration Failed")
+      // })
 
     }
     else {
@@ -128,11 +130,11 @@ const Register = () => {
   return (
     <div >
       <Header />
-      <div className='container'>
+      <div className='container' >
         <div className="row">
-          <div className="col-md-6 offset-md-3 border rounded p-4 mt-2 shadow">
+          <div className="col-6 offset-3 border rounded p-4 mt-2 shadow">
             <h2 className="text-center m-4">Register User</h2>
-            <form onSubmit={(e) => onSubmit(e)}>
+            <form onSubmit={(e) => onSubmit(e)} >
               <div className="mb-3">
                 <label htmlFor="Name" className="form-label">
                   Name

@@ -72,7 +72,7 @@ const Login = () => {
     <div><Header />
       <div className='container'>
         <div className="row">
-          <div className="col-md-6 offset-md-3 border rounded p-4 mt-2 shadow">
+          <div className="col-6 offset-3 border rounded p-4 mt-2 shadow">
             <h2 className="text-center m-4">Login</h2>
             <form onSubmit={(e) => onSubmit(e)}>
               <div className="mb-3">
